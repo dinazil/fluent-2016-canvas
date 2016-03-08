@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script type="text/javascript" src="jquery-2.2.0.min.js"></script>
+	<script type="text/javascript" src="utils.js"></script>
+	<script type="text/javascript" src="features/circle.js"></script>
+	<script type="text/javascript" src="features/pen.js"></script>
+	<script type="text/javascript" src="features/polygon.js"></script>
+	<script type="text/javascript" src="features/rectangle.js"></script>
+	<script type="text/javascript" src="paint.js"></script>
+</head>
+<body>
+	Line Color: <input type="color" onchange="setStrokeColor(this.value);"><br/>
+	Line Width: <input type="number" onchange="setStrokeWidth(this.value);"><br/>
+	Fill Color: <input type="color" onchange="setFillColor(this.value);"><br/>
+    <div id="features"></div>
+	<button onclick="newCanvas()">New</button><br/>
+	<canvas id="canvas" width="600" height="400" style="border: 1px solid black"></canvas>
+</body>
+</html>

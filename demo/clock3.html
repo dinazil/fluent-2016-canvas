@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+		<script type="text/javascript" src="counter.js"></script>
+		<script type="text/javascript" src="clock3.js"></script>
+	</head>
+	<body>
+        <label>Measure time to render single frame:</lable><br>
+        <label>Number of repetitions: </label>
+        <input type="number" id="numberOfRepetitions" value=2000></input><br>
+        <label>Static rendering: </label>
+        <input type="radio" name="staticRendering" id="redraw" value="redraw" checked>Redraw</input>
+        <input type="radio" name="staticRendering" value="offscreen">Offscreen</input>
+        <br>
+        <button onclick="measureTime();">Measure single render</button><br>
+        <div id="timeToRender"></div>
+        <canvas width=400 height=400 style="border:1px solid black" id="canvas"></canvas>
+	</body>
+</html>

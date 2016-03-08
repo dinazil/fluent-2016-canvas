@@ -1,0 +1,13 @@
+Canvas-based games:
+* http://www.agame.com/game/cut-the-rope - You can see that if you enter the game and inspect the element for the main screen all that's there is a canvas!
+* http://bejeweled.popcap.com/html5/0.9.12.9490/html5/Bejeweled.html
+
+Tutorials and Documentation:
+* https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API - I like this one
+* http://www.w3schools.com/canvas/default.asp
+
+Canvas libraries:
+* http://fabricjs.com/
+* http://www.createjs.com/easeljs
+* http://paperjs.org/
+
